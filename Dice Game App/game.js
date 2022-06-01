@@ -15,9 +15,9 @@ const getRandomNumber = max => {
 
 const change_player = () => {
     if ($("#current").text() == $("#player1").val()) {
-        $("#current").text($("player2").val());
+        $("#current").text($("#player2").val());
     } else {
-        $("#current").text( $("player1").val ());
+        $("#current").text( $("#player1").val ());
     }
 
     $("#dice").val ("0");
